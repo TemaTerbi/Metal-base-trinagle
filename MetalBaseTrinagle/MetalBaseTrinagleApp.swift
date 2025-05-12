@@ -11,7 +11,9 @@ import SwiftUI
 struct MetalBaseTrinagleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MetalView()
+                .background(.blue)
+                .ignoresSafeArea()
         }
     }
 }
